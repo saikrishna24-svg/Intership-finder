@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Browse and filter beginner-friendly internship opportunities.">
+  <title>Internship Finder | Find your next opportunity</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to internship listings</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#" aria-label="Internship Finder home">
+        <span class="brand-mark" aria-hidden="true">IF</span>
+        <span>Internship<span class="brand-light">Finder</span></span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#opportunities">Explore internships</a>
+        <a href="#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-content">
+        <p class="eyebrow">YOUR NEXT STEP STARTS HERE</p>
+        <h1>Find an internship.<br><span>Build your future.</span></h1>
+        <p class="hero-copy">Explore student-friendly opportunities, discover new domains, and take the next step in your career.</p>
+        <a class="button button-light" href="#opportunities">Browse opportunities <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-decoration" aria-hidden="true"><span></span><span></span><span></span></div>
+    </section>
+
+    <section class="listing-section container" id="opportunities" aria-labelledby="listing-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">CURATED FOR YOU</p>
+          <h2 id="listing-title">Explore internships</h2>
+          <p class="section-copy">Search roles or filter by your area of interest.</p>
+        </div>
+        <p class="results-count" id="results-count" aria-live="polite">Loading internships…</p>
+      </div>
+
+      <form class="filters" id="filter-form" role="search" aria-label="Filter internships">
+        <div class="field search-field">
+          <label for="search-input">Search internships</label>
+          <input id="search-input" name="search" type="search" placeholder="Try “Python” or “design”" autocomplete="off">
+        </div>
+        <div class="field">
+          <label for="domain-filter">Domain</label>
+          <select id="domain-filter" name="domain">
+            <option value="all">All domains</option>
+          </select>
+        </div>
+        <button class="button button-primary" type="submit">Search</button>
+        <button class="button button-outline" type="reset">Clear filters</button>
+      </form>
+
+      <div id="status-message" class="status-message" role="status" aria-live="polite" hidden></div>
+      <div id="internship-grid" class="internship-grid" aria-label="Internship results"></div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="container about-inner">
+        <div><p class="eyebrow">START WITH CURIOSITY</p><h2>Small steps lead to big opportunities.</h2></div>
+        <p>These sample listings are fictional practice data created for this internship project. Always verify an opportunity before applying.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© 2026 InternshipFinder</span>
+      <span>Built with semantic HTML, CSS and vanilla JavaScript.</span>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,8 @@
+[
+  {"id":1,"title":"Frontend Developer Intern","company":"BrightPixel Studio","domain":"Web Development","location":"Remote","type":"Part-time","duration":"3 months","stipend":"₹8,000 / month","skills":["HTML","CSS","JavaScript"],"initials":"BP"},
+  {"id":2,"title":"Python Developer Intern","company":"CodeNest Labs","domain":"Software Development","location":"Hyderabad","type":"Full-time","duration":"2 months","stipend":"₹10,000 / month","skills":["Python","APIs","Git"],"initials":"CN"},
+  {"id":3,"title":"Data Analyst Intern","company":"InsightWorks","domain":"Data Science","location":"Remote","type":"Part-time","duration":"3 months","stipend":"₹7,000 / month","skills":["SQL","Python","Excel"],"initials":"IW"},
+  {"id":4,"title":"UI/UX Design Intern","company":"Northstar Creative","domain":"Design","location":"Bengaluru","type":"Full-time","duration":"2 months","stipend":"₹9,000 / month","skills":["Figma","Wireframes","Prototyping"],"initials":"NC"},
+  {"id":5,"title":"Machine Learning Intern","company":"NeuronBridge","domain":"Artificial Intelligence","location":"Remote","type":"Part-time","duration":"4 months","stipend":"₹12,000 / month","skills":["Python","Pandas","ML"],"initials":"NB"},
+  {"id":6,"title":"Java Backend Intern","company":"StackRoute Systems","domain":"Software Development","location":"Pune","type":"Full-time","duration":"3 months","stipend":"₹10,000 / month","skills":["Java","SQL","Spring"],"initials":"SR"}
+]
